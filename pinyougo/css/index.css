@@ -1,0 +1,170 @@
+/* 721455 */
+.main {
+    width: 721px;
+    height: 455px;
+    border: 1px dashed #ccc;
+    margin-left: 390px;
+    margin-top: 9px;
+    position: relative;
+}
+.main ul li img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.u2{
+    position: absolute;
+ 
+    bottom: 10px;
+    left: 30px;
+}
+.u2 li{
+       float: left;
+    
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(255, 255, 255, .7);
+  
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.u2 li:hover{
+background: white;
+}
+
+  
+.ileft i{
+    font-family: icomoon;
+    font-size: 30px;
+    color: white;
+    margin: auto auto;
+}
+.iright i{
+    font-family: icomoon;
+    font-size: 30px;
+    color: white;
+   margin: auto auto;
+}
+.ileft{
+    position: absolute;
+    width: 28px;
+    height: 50px;
+    top: 41%;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+   
+
+}
+.iright{
+    position: absolute;
+    width: 28px;
+    height: 50px;
+    top: 41%;
+    right: 0;
+    background: rgba(255, 255, 255, .2);
+
+}
+
+
+.newsflash{
+    width: 250px;
+    height: 455px;
+    /* border: 1px dashed black; */
+    margin-left: 727px;
+}
+
+.news{
+    border: 1px solid black;
+    border-bottom: none;
+
+    width: 250px;
+    height: 165px;
+
+}
+
+.service{
+    width: 250px;
+    height: 209px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.ad{
+    width: 253px;
+    height: 75px;
+   margin-top: 2px;
+
+}
+
+.ad img{
+    width: 253px;
+}
+
+.i99{
+    font-family: icomoon;
+}
+.newshd{
+    width: 249px;
+    height: 33px;
+    border-bottom: 1px solid black;
+
+
+}
+
+.newshd p{
+    float: left;
+    font-size: 16px;
+ 
+     margin: 4px 15px 4px 15px;
+}
+
+.newshd a{
+    float: right;
+    margin: 6px 20px 6px 20px;
+}
+
+
+.uq{
+    width: 252px;
+    height: 211px;
+    position: absolute;
+
+}
+
+.uq li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.newsdetail ul li {
+    margin: 6px 0px 6px 10px;
+}
+
+.aq{
+  display: block;
+  
+  
+    width: 62px;
+    height: 70px;
+}
+
+.iq{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    background-position: -17px -16px;
+    margin: 10px 20px 10px 20px;
+}
+
+.pq{
+    text-align: center;
+    margin: 0px auto;
+}

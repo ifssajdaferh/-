@@ -1,0 +1,401 @@
+/* 此文件为项目公共 部分/组件的样式 */
+
+
+.shortcut {
+    height: 31px;
+    background-color:#f1f1f1;
+    color:#666666;
+ 
+    line-height: 31px;
+
+}
+
+.mid{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+
+.fl{
+    float: left;
+   
+
+}
+
+.fr{
+    float: right;
+}
+
+.shortcut li{
+    float: left;
+}
+
+
+.spacer {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* headerstart */
+
+.header{
+    position: relative;
+    width: 1200px;
+    height: 105px;
+    margin: 0 auto;
+    /* background-color: cyan; */
+}
+.logod {
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    /* border:1px solid black; */
+    top: 25%;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.logoh {
+    text-indent: -9999999px;
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+  
+
+}
+.logoa {
+    display: block;
+    width: 175px;
+    height: 56px;
+
+}
+
+
+.search {
+     position: absolute;
+  
+
+
+top: 25%;
+left: 350px;
+
+
+
+}
+.search input{
+    height: 32px;
+    padding: 3px;
+    width: 459px;
+   
+    border: 2px solid red;
+    outline: none;
+
+}
+
+.search button {
+    float: right;
+    width: 82px;
+    height: 42px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    
+}
+
+.hot {
+    position: absolute;
+    top: 70%;
+    left: 340px;
+}
+.hot a{
+    margin: 5px 12px;
+}
+.hot :nth-child(1) {
+    color: red;
+}
+
+.shopcar {
+    width: 140px;
+    height: 36px;
+    border: 1px solid green;
+    position: absolute;
+    top: 25%;
+    right: 80px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+.shopcar {
+    font-family: icomoon;
+}
+.shopcar :nth-child(1){
+    color: red;
+}
+
+.count {
+    
+    position: absolute;
+    /* width: 200px; */
+    left: 100px;
+    top: -6px;
+    height: 15px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 15px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px 6px 6px 0px;
+
+}
+
+
+.nav {
+    
+height: 45px;
+border-bottom:3px solid #b1191a;
+
+
+}
+
+.w {
+    
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.dropdown {
+    float: left;
+}
+
+
+
+.navitems {
+float: left;
+   
+    /* width: 990px; */
+    margin: 0px;
+height: 45px;
+line-height: 45px;
+
+
+}
+
+.dt{
+  
+
+
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+    margin: 0px;
+ 
+
+
+   
+}
+.dt p{
+  
+    width: 150px;
+     
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+
+.dd2233 {
+    width: 209px;
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+    font-family: icomoon;
+   /* display: none; */
+   overflow: hidden;
+
+
+}
+.dd2233 li{
+    width: 209px;
+    height: 31px;
+    padding-left: 12px;
+    color: white;
+    
+    line-height: 31px;
+    transition: all 0.5s;
+}
+.dd2233 li:hover{
+    background-color: white;
+    padding-left: 20px;
+    color: red;
+    
+}
+
+
+.dd2233 li:hover > .a1{
+    color: red;
+   
+}
+    /* float: left; */
+    
+
+    .a1{
+        color: white;
+    }
+
+.dd2233 i{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navitems {
+    width: 736px;
+    height: 45px;
+    margin-left: 20px;
+
+}
+.navitems>ul>li{
+    float: left;
+}
+.navitems a{
+    margin:0 25px;
+    font-size: 16px;
+}
+
+
+.footer {
+    height: 416px;
+   
+  
+
+    margin-top: 300px;
+    padding-top: 40px;
+    background-color: #f5f5f5;
+}
+.footer .w {
+   
+    
+    height: 418px;
+    width: 1200px
+    
+}
+
+.top{
+    height: 81px;
+    border-bottom: 1px solid #ccc;
+}
+
+.center {
+    height: 188px;
+    border-bottom: 1px solid #ccc;
+}
+
+.last {
+    width: 100%;
+    height: 68px;
+}
+
+.top ul{
+    width: 1200px;
+    height: 100%;
+}
+.top ul li{
+ 
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin: 0 20px 0 20px;
+}
+
+.iicon{
+    float: left;
+    display: inline-block;
+  
+width: 51px;
+height: 52px;
+background-image: url('../img/icons.png');
+background-position: 307px 0px;
+}
+
+.d5{
+    float: left;
+    width: 108px;
+    height: 45px;
+   
+}
+
+.d5 h5{
+    margin:9px 0px 6px 0px;
+   
+}
+
+.i2{
+    background-position: 307px -53px;
+}
+.i3{
+    background-position: 305px -105px;
+}
+.i4{
+    background-position: 304px -156px;
+}
+.i5{
+    background-position: 306px -209px;
+}
+
+
+.dl1{
+    width: 200px;
+    height: 177px;
+    float: left;
+
+}
+.dl2 dt{
+    padding-left: 16px;
+
+}
+.d7{
+    padding-left: 16px;
+
+}
+
+.dl1 dt{
+    width: 150px;
+margin: 20px auto 3px auto;
+font-size:18px;
+}
+
+.dl1 dd{
+width: 150px;
+margin: 3px auto;
+  
+}
+.last ul{
+    width: 800px;
+    margin: 20px auto;
+}
+.last ul>li>i{
+    margin: 0 3px;
+}
+
+.last ul>li{
+    float: left;
+}
+
+.p0{
+    display: inline-block;
+    width: 800px;
+
+    text-align: center;
+    margin-top: 21px;
+ margin-left: 170px;
+}
+
